@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalyani sapkal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background-image: url(https://html-template.spider-themes.net/docy/img/new/banner_shap1.png);
+            background-repeat: no-repeat;
+            background-color: rgb(45, 45, 138);
+        }
+
+        .icon>img {
+            margin-left: 300px;
+            margin-top: 100px;
+        }
+
+        ul {
+            display: flex;
+            margin-left: 700px;
+            color: white;
+            font-size: 30px;
+            column-gap: 50px;
+            list-style: none;
+            position: absolute;
+            top: 100px;
+        }
+
+        button {
+            background: transparent;
+            outline: invert;
+            color: white;
+            height: 50px;
+            width: 150px;
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 27px;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: white;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        p {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+        }
+
+        input {
+            outline: 0;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .yellow {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(104, 106, 207);
+            border-radius: 100px;
+            margin-left: 100px;
+            animation:move 7s linear infinite;
+        }
+
+        .yellow1 {
+            height: 150px;
+            width: 150px;
+            background-color: rgb(186, 119, 181);
+            border-radius: 100px;
+            margin-left: 600px;
+            animation:moves 7s linear infinite;
+        }
+
+        .yellow2 {
+            height: 90px;
+            width: 90px;
+            background-color: rgb(133, 176, 202);
+            border-radius: 100px;
+            margin-left: 1600px;
+            position: absolute;
+            top: 250px;
+            animation:movess 7s linear infinite;
+        }
+
+        .img {
+            position: absolute;
+            margin-top: 630px;
+            margin-left: 1380px;
+
+        }
+@keyframes move{
+        from{
+            transform: translateX(30%);
+        }
+        to{
+            transform: translateX(-20%);
+        }
+    }
+    @keyframes moves{
+        from{
+            transform: translateY(70%);
+        }
+        to{
+            transform: translateX(10%);
+        }
+    }
+    @keyframes movess{
+        from{
+            transform: translateX(300%);
+        }
+        to{
+            transform: translateX(20%);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="icon">
+        <img src="https://html-template.spider-themes.net/docy/img/logo-w2x.png" alt="">
+
+    </div>
+    <div class="img">
+        <img src="https://html-template.spider-themes.net/docy/img/new/banner_shap2.png" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li id="home"> Home</li>
+            <li id="docs"> Docs</li>
+            <li id="pages"> Pages</li>
+            <li id="forum"> Forum</li>
+            <li id="blog" > <a href="projectblog.html" style="color: white;">Blog</a></li>
+            <button>Free trial</button>
+        </ul>
+
+    </nav>
+    <h1>How can we help you?</h1>
+    <p>Search here to get answer your questions</p>
+
+    <button class="search" style="background-color: white;color: black;width: 400px;margin-left: 750px;"><i
+            class='bx bx-search'></i> <input type="text" placeholder="search Doc"><select>
+            <option>All docs</option> 
+            <option >knowledge base</option>
+            <option >documentation</option>
+            <option >FAQ's</option>
+            <option >forums</option>
+            <option>portfolio</option>
+        </select></button>
+    <div class="yellow">
+
+    </div>
+    <div class="yellow1">
+
+    </div>
+    <div class="yellow2">
+
+    </div>
+</body>
+
+</html>
